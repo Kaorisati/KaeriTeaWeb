@@ -1,3 +1,44 @@
-.hist-container{
-    height: 550px;
+
+.year{
+    color: #5DA43E;
+}
+.hist-container {
+    display: flex;
+    padding: 30px 2%;
+    flex-direction: column;
+}
+@media(min-width: 768px){
+    .hist-container {
+        flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 5%;
+    align-items: center;
+    }
+    .box-txt {
+        max-width: 400px;
+    }
+    img.img-history {
+        width: 280px;
+        height: auto;
+    }
+    
+}
+@media(min-width: 1024px){
+    .box-txt {
+        max-width: 500px;
+    }
+    img.img-history {
+        width: 400px;
+        height: auto;
+    }
+}
+
+@media(min-width: 1440px){
+    .box-txt {
+        max-width: 700px;
+    }
+    img.img-history {
+        width: 500px;
+        height: auto;
+    }
 }

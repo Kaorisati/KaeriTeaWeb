@@ -7,3 +7,36 @@ body {
   height: 100%;
   width: 100%;
 }
+
+.title2{
+  color: #5DA43E;
+  font-size: 22px;
+}
+p.description2 {
+  font-size: 15px;
+}
+
+@media(min-width: 768px){
+  p.description2 {
+    font-size: 17px;
+}
+.title2{
+  font-size: 23px;
+}
+}
+@media(min-width: 1024px){
+  p.description2 {
+    font-size: 19px;
+}
+.title2{
+  font-size: 25px;
+}
+}
+@media(min-width: 1440px){
+  p.description2 {
+    font-size: 21px;
+}
+.title2{
+  font-size: 27px;
+}
+}
