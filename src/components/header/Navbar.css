@@ -1,0 +1,32 @@
+
+.Navbar {
+  
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  z-index: 10;
+  
+}
+.ol {
+  margin: 5px;
+  font-size: calc(0.75em + 1vw);
+  color: #294634;
+  font-weight: 500;
+  text-decoration: none;
+   
+}
+.ol:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px){
+  .Navbar {
+    flex-direction: row;
+    width: 75%;
+  }
+  .ol{
+    margin: 0.8rem;
+    padding: 0 1rem 0 1rem;
+    font-size: calc(0.7em + 1vw);
+  }
+}

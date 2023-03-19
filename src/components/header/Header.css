@@ -1,0 +1,36 @@
+
+.Header {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 35vh;
+  justify-content: space-between;
+  }
+
+  .logo{
+    width: calc(5em + 1vw);
+    z-index: 20;
+    color: aliceblue;
+  }
+
+  /* tablets */
+  @media (min-width: 768px){
+    .logo{
+      width: calc(5.5em + 1vw);
+    }
+    
+    
+  }
+
+  /* normal */
+  @media (min-width: 1024px){
+    .logo{
+      width: calc(8em + 1vw);
+    }
+    .Header {
+      margin:40px
+    }
+  }
+  /* widescreens */
