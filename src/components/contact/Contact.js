@@ -5,10 +5,23 @@ import Logo from "../../assets/Logo1.png";
 export default function Contact() {
   return (
     <div className="contact-container">
+      <div className="box-txt contact">
+        <p className="year description2">1921</p>
+        <h2 className="title2">REGRESO A LA ESENCIA</h2>
+        <p className="description2">
+          Kaeriyama 1921 - Watanabe 1930
+          <br />
+          Misiones, Argentina.
+          <br />
+          89 años de experiencia en producción de té.
+          <br />
+          <strong>Oberá, Misiones</strong>
+        </p>
+      </div>
       <div className="content-mapa">
         <img src={Logo} alt="logo" className="logo" />
         <a href="https://goo.gl/maps/WepGBKtTvt9LuyvJ6" target="_blank">
-        <img src="/mapa-provisorio.png" alt="mapa" className="mapa" />
+          <img src="/mapa-provisorio.png" alt="mapa" className="mapa" />
         </a>
       </div>
       <h2 className="title2">CONTACTANOS</h2>
@@ -18,6 +31,14 @@ export default function Contact() {
         <p className="description2">El Mensu 1178, Oberá, Misiones</p>
       </a>
       <p className="description2">Lunes a Viernes de 07.00 a 18.00hs</p>
+      <div className="redes">
+        <a href="">
+      <i class="fa-brands fa-square-facebook"></i>
+      </a>
+      <a href="">
+      <i class="fa-brands fa-instagram"></i>
+      </a>
+      </div>
     </div>
   );
 }

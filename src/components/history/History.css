@@ -6,6 +6,7 @@
     display: flex;
     padding: 30px 2%;
     flex-direction: column;
+    margin-top: 280px;
 }
 img.img-history {
     width: 300px;

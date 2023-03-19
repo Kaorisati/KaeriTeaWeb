@@ -16,6 +16,18 @@ a{
     cursor: pointer;
 }
 
+.box-txt.contact {
+    margin-bottom: 40px;
+}
+.redes {
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+    font-size: 28px;
+}
+.redes i{
+    color: #274A39;
+}
 @media(min-width: 740px){
 .contact-container {
     padding: 40px 5%;
