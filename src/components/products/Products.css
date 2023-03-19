@@ -14,7 +14,7 @@ h4.title-product {
 @media(min-width: 768px){
     .content-products {
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
     .section-products {
         padding: 30px 5%;
