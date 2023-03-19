@@ -1,5 +1,7 @@
 import React from "react";
 import "./Contact.css";
+import {FaInstagram, FaFacebookSquare, FaWhatsapp} from "react-icons/fa"
+
 import Logo from "../../assets/Logo1.png";
 
 export default function Contact() {
@@ -32,11 +34,14 @@ export default function Contact() {
       </a>
       <p className="description2">Lunes a Viernes de 07.00 a 18.00hs</p>
       <div className="redes">
-        <a href="">
-      <i class="fa-brands fa-square-facebook"></i>
+        <a href="#">
+        <FaFacebookSquare color="#274A39"/>
       </a>
-      <a href="">
-      <i class="fa-brands fa-instagram"></i>
+      <a href="#">
+      <FaInstagram color="#274A39"/>
+      </a>
+      <a href="#">
+      <FaWhatsapp color="#274A39"/>
       </a>
       </div>
     </div>
