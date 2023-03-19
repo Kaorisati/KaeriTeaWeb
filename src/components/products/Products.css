@@ -1,0 +1,26 @@
+.content-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-products {
+    padding: 30px 2%;
+}
+h4.title-product {
+    text-align: center;
+    color: #5DA43E;
+}
+
+@media(min-width: 768px){
+    .content-products {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .section-products {
+        padding: 30px 5%;
+    }
+}
+
+@media(min-width: 1024px){}
+
+@media(min-width: 1440px){}
