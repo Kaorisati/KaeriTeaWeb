@@ -10,8 +10,6 @@ function Header() {
         <ImageSlider/>
       <img src={ Logo } alt="logo" className='logo' />
     <Navbar/>
- 
-
     </div>
   );
 }
