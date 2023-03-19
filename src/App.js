@@ -12,7 +12,7 @@ function App() {
     <Header/>
     <History id='historia'/>
     <Products id='productos' />
-    <Contact/>
+    <Contact id='contacto'/>
     {/* <Routes>
       <Route path="/" exact />
       <Route path='/historia' element={<History />}/>
