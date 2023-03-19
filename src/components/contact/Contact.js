@@ -1,23 +1,23 @@
 import React from "react";
-import "./Contact.css"
-import Logo from '../../assets/Logo1.png'
+import "./Contact.css";
+import Logo from "../../assets/Logo1.png";
 
-
-export default function History() {
+export default function Contact() {
   return (
     <div className="contact-container">
-        <h3>REGRESO A LA ESENCIA</h3>
-        <p>Kaeriyama 1921 - Watanabe 1930
-            Misiones, Argentina.
-            89 años de experiencia en producción de té</p>
-        <p>Oberá, Misiones</p>
-
-        <img src={ Logo } alt="logo" className='logo' />
-        <h4>CONTACTANOS</h4>
-        <p>info@tekaeriyama.com.ar</p>
-        <p>+54 9 3755 552990</p>
-        <p>address, Oberá, Misiones</p>
-        <p>Lunes a Viernes de 07.00 a 18.00hs</p>
+      <div className="content-mapa">
+        <img src={Logo} alt="logo" className="logo" />
+        <a href="https://goo.gl/maps/WepGBKtTvt9LuyvJ6" target="_blank">
+        <img src="/mapa-provisorio.png" alt="mapa" className="mapa" />
+        </a>
+      </div>
+      <h2 className="title2">CONTACTANOS</h2>
+      <p className="description2">info@tekaeriyama.com.ar</p>
+      <p className="description2">+54 9 3755 552990</p>
+      <a href="https://goo.gl/maps/WepGBKtTvt9LuyvJ6" target="_blank">
+        <p className="description2">El Mensu 1178, Oberá, Misiones</p>
+      </a>
+      <p className="description2">Lunes a Viernes de 07.00 a 18.00hs</p>
     </div>
   );
 }

@@ -12,12 +12,13 @@ img.img-history {
     height: auto;
 }
 
-@media(min-width: 768px){
+@media(min-width: 740px){
     .hist-container {
         flex-direction: row;
     justify-content: space-between;
     padding: 40px 5%;
     align-items: center;
+    margin-top: 370px;
     }
     .box-txt {
         max-width: 400px;

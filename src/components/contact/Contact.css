@@ -1,0 +1,35 @@
+.content-mapa {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.contact-container {
+    padding: 30px 2%;
+}
+img.mapa {
+    width: 280px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+@media(min-width: 740px){
+.contact-container {
+    padding: 40px 5%;
+
+}
+
+img.mapa {
+    width: 400px;
+}
+}
+
+@media(min-width: 1024px){
+    img.mapa {
+        width: 600px;
+    }
+    }
+    
